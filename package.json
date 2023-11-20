@@ -35,6 +35,9 @@
   "resolutions": {
     "@web3-onboard/trezor/**/protobufjs": "^7.2.4"
   },
+  "overrides": {
+    "@safe-global/safe-deployments": "1.28.0"
+  },
   "dependencies": {
     "@date-io/date-fns": "^2.15.0",
     "@ducanh2912/next-pwa": "^9.7.1",
@@ -58,6 +61,7 @@
     "@sentry/tracing": "^7.74.0",
     "@tkey-mpc/common-types": "^8.2.2",
     "@truffle/hdwallet-provider": "^2.1.4",
+    "@walletconnect/client": "^1.8.0",
     "@walletconnect/utils": "^2.10.2",
     "@walletconnect/web3wallet": "^1.9.2",
     "@web3-onboard/coinbase": "^2.2.6",
