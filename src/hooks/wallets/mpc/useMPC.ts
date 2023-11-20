@@ -13,7 +13,7 @@ import { getRpcServiceUrl } from '../web3'
 const { getStore, setStore, useStore } = new ExternalStore<Web3AuthMPCCoreKit>()
 
 export const initMPC = async (chain: ChainInfo, onboard: OnboardAPI) => {
-  if (!IS_PRODUCTION) return
+  if (IS_PRODUCTION) return
 
   const chainConfig = {
     chainId: `0x${Number(chain.chainId).toString(16)}`,
