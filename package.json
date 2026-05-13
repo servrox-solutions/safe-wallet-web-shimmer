@@ -74,7 +74,7 @@
     "@web3-onboard/walletconnect": "^2.4.7",
     "@web3auth/mpc-core-kit": "^1.1.3",
     "blo": "^1.1.1",
-    "bn.js": "^5.2.1",
+    "bn.js": "^5.2.3",
     "classnames": "^2.3.1",
     "date-fns": "^2.29.2",
     "ethers": "5.7.2",
@@ -84,8 +84,8 @@
     "fuse.js": "^6.6.2",
     "idb-keyval": "^6.2.1",
     "js-cookie": "^3.0.1",
-    "lodash": "^4.17.21",
-    "next": "^13.5.2",
+    "lodash": "^4.18.1",
+    "next": "^15.5.18",
     "papaparse": "^5.3.2",
     "qrcode.react": "^3.1.0",
     "react": "18.2.0",
@@ -96,7 +96,7 @@
     "react-papaparse": "^4.0.2",
     "react-qr-reader": "2.2.1",
     "react-redux": "^8.0.5",
-    "semver": "^7.5.2"
+    "semver": "^7.8.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.1.0",
@@ -119,7 +119,7 @@
     "@types/react-dom": "18.2.13",
     "@types/react-gtm-module": "^2.0.1",
     "@types/react-qr-reader": "^2.1.5",
-    "@types/semver": "^7.3.10",
+    "@types/semver": "^7.7.1",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@walletconnect/types": "^2.10.1",
     "cross-env": "^7.0.3",
@@ -139,7 +139,7 @@
     "typechain": "^8.0.0",
     "typescript": "4.9.4",
     "typescript-plugin-css-modules": "^4.2.2",
-    "webpack": "^5.88.2"
+    "webpack": "^5.104.1"
   },
   "nextBundleAnalysis": {
     "budget": null,
